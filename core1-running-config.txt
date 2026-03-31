@@ -1,0 +1,215 @@
+Current configuration : 1761 bytes
+!
+! Last configuration change at 11:43:17 UTC Tue Mar 31 2026
+!
+version 15.2
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+service compress-config
+!
+hostname core1.tp1.efrei
+!
+boot-start-marker
+boot-end-marker
+!
+!
+logging discriminator EXCESS severity drops 6 msg-body drops EXCESSCOLL
+logging buffered 50000
+logging console discriminator EXCESS
+!
+no aaa new-model
+!
+ --More--
+*Mar 31 12:02:47.824: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+
+core1.tp1.efrei#
+*Mar 31 12:03:47.826: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:04:47.818: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:05:47.817: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:06:47.827: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:07:47.817: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:08:47.829: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:09:47.821: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:10:47.828: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:11:47.822: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:12:47.814: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:13:47.824: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:14:47.829: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:15:47.820: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:16:47.825: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:17:47.817: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:18:47.823: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:19:47.830: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:20:47.829: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:21:47.817: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:22:47.825: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:23:47.832: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:24:47.821: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:25:47.831: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:26:47.825: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:27:47.821: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:28:47.826: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:29:47.822: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+*Mar 31 12:30:47.813: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on Ethe                                                                                                             rnet0/0 (not half duplex), with r1.tp1.efrei FastEthernet0/0 (half duplex).
+core1.tp1.efrei#
+core1.tp1.efrei#
+core1.tp1.efrei#show running-config
+Building configuration...
+
+Current configuration : 1761 bytes
+!
+! Last configuration change at 11:43:17 UTC Tue Mar 31 2026
+!
+version 15.2
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+service compress-config
+!
+hostname core1.tp1.efrei
+!
+boot-start-marker
+boot-end-marker
+!
+!
+logging discriminator EXCESS severity drops 6 msg-body drops EXCESSCOLL
+logging buffered 50000
+logging console discriminator EXCESS
+!
+no aaa new-model
+!
+!
+!
+!
+!
+no ip icmp rate-limit unreachable
+!
+!
+!
+no ip domain-lookup
+ip cef
+no ipv6 cef
+!
+!
+!
+spanning-tree mode pvst
+spanning-tree extend system-id
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Ethernet0/0
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+!
+interface Ethernet0/1
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+!
+interface Ethernet0/2
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+!
+interface Ethernet0/3
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+!
+interface Ethernet1/0
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+!
+interface Ethernet1/1
+!
+interface Ethernet1/2
+!
+interface Ethernet1/3
+!
+interface Ethernet2/0
+!
+interface Ethernet2/1
+!
+interface Ethernet2/2
+!
+interface Ethernet2/3
+!
+interface Ethernet3/0
+!
+interface Ethernet3/1
+!
+interface Ethernet3/2
+!
+interface Ethernet3/3
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+ip forward-protocol nd
+!
+ip tcp synwait-time 5
+ip http server
+ip http secure-server
+!
+ip ssh server algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+ip ssh client algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+!
+!
+!
+!
+!
+control-plane
+!
+!
+line con 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+line aux 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+line vty 0 4
+ login
+!
+!
+!
+end
